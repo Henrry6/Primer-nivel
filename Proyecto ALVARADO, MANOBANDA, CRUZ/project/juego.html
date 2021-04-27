@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Trivia</title>
+	<link rel="shortcut icon" type="image/x-icon" href="img/menu/black.ico">
+	<link rel="stylesheet" href="css/juego.css">
+</head>
+
+<table border="1" ><tr>
+	<td><a href="ambiente.html"  title="INICIO"> <img src="img/menu/inicio.png"></td> </a>
+	<td><a href="juego.html"  title="TRIVIA"> <img src="img/menu/trivia.png"></td> </a> 
+	<td><a href="contactos.html" title="CONTACTOS"> <img src="img/menu/contactos.png"> </td> </a> </tr>
+	</table>
+
+<body>
+       
+
+     <h1>*Juego de Trivia*</h1>
+    
+	<div class="trivia">
+           
+           <div class="preguntas" id="cajas">
+           	
+           </div>
+           
+           <div class="opciones">
+           	  <ul id="ul">
+           	  	  <li id="opcion1" onclick="button(this)"></li>
+           	  	  <li id="opcion2" onclick="button(this)"></li>
+           	  	  <li id="opcion3" onclick="button(this)"></li>
+           	  	  <li id="opcion4" onclick="button(this)"></li>
+           	  </ul>
+           </div>
+           <div class="puntaje">
+           	   <div class="next">
+           	   	  <button type="button" onclick="avanzarPregunta()" id="boton">Siguiente</button>
+           	   </div>
+           	   <div class="valores">
+           	   	  Puntaje : <span id="datos">0</span>
+				  </div>
+           </div>
+
+	</div>
+<script src="js/proyecto.js"></script>
+</body>
+</html>

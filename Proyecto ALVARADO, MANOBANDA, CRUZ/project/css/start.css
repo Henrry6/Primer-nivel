@@ -1,0 +1,12 @@
+h1{
+	text-align: center;
+    color: #8f0b0b;
+    font-size: 3rem;
+    line-height: 4rem;
+    
+}
+
+hr {
+    border-width: 0.15rem;
+    width: 55rem;
+}

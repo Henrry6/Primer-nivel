@@ -1,0 +1,145 @@
+body{
+	background-image: url('../img/8.jpg');
+	margin:0;
+	padding:0;
+}
+*{
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+h1{
+	text-align: center;
+	color: #ffffff;
+	margin:1px 0px -15px;
+}
+
+.trivia{
+	height: 400px;
+	width: 650px;
+	background-color: rgb(133, 226, 133);
+	margin:50px auto;
+	border-radius: 8px;
+	padding: 30px;
+}
+
+.trivia .preguntas{
+	padding: 15px;
+	background-color:#21c8e6;
+	border-radius: 8px;
+	color:#030303;
+	font-size:20px;
+	float: left;
+	width: 100%;
+
+}
+.trivia .opciones{
+	float: left;
+	width: 100%;
+}
+
+.trivia .opciones ul{
+	list-style: none;
+	padding: 0px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.trivia .opciones ul li{
+	display: inline-block;
+	background-color:#9e9e9e;
+	width: 47%;
+	padding: 15px;
+	border-radius:8px;
+	margin-top: 25px;
+	font-size: 15px;
+	color:#020202;
+	box-shadow: 0px 3px 0px grey;
+	cursor: pointer;
+	outline: none;
+	text-align: center;
+}
+.trivia .opciones ul li:active{
+	box-shadow: 0px 3px 0px transparent;	
+
+}
+.trivia .opciones ul li.correcto{
+	background-color: #0fd40f;
+	box-shadow: 0px 3px 0px #03a503;
+}
+
+.trivia .opciones ul li.error{
+	background-color: #e91e1e;
+	box-shadow: 0px 3px 0px #cb0b0b;
+}
+
+.trivia .puntaje{
+	float: left;
+	width: 100%;
+	padding:25px 0px;
+}
+
+.trivia .puntaje .next{
+	width: 40%;
+	float: left;
+	
+}
+.trivia .puntaje .intent{
+	width: 40%;
+	float: right;
+}
+.trivia .puntaje .next button{
+	padding: 15px 80px;
+	color:rgb(0, 0, 0);
+	background-color:#ff9800;
+	border:none;
+	border-radius:8px;
+	font-size: 15px;
+	cursor: pointer;
+	box-shadow: 0px 3px 0px #c97a06;
+	outline: none;
+}
+.trivia .puntaje .intent button{
+	padding: 15px 80px;
+	color:rgb(0, 0, 0);
+	background-color:#ff9800;
+	border:none;
+	border-radius:8px;
+	font-size: 15px;
+	cursor: pointer;
+	box-shadow: 0px 3px 0px #c97a06;
+	outline: none;
+}
+.trivia .puntaje .next button:active{
+box-shadow: 0px 3px 0px transparent;	
+}
+
+.trivia .puntaje .valores{
+	width: 60%;
+	float: left;
+}
+.trivia .puntaje .valores{
+	font-size: 20px;
+	color:black;
+	line-height: 50px;
+	text-transform: uppercase;
+}
+.trivia .puntaje .valores span{
+	background-color: #21c8e6;
+	padding: 5px 20px;
+	border-radius: 8px;
+	color:#0c0c0c;
+
+}
+
+
+
+
+
+
+
+
+
+
+
